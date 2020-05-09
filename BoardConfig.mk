@@ -13,7 +13,7 @@ DEVICE_PATH := device/motorola/hannah
 TARGET_OTA_ASSERT_DEVICE := hannah,hannah_t,ahannah,rhannah
 
 # Kernel
-TARGET_KERNEL_CONFIG := hannah_defconfig
+TARGET_KERNEL_CONFIG := hannaht_defconfig
 
 # Partitions
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 25165824
