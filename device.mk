@@ -46,3 +46,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
     $(LOCAL_PATH)/configs/sensors/sensor_def_qcomdev_ahannah.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev_ahannah.conf
+
+# Thermal config
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/thermal-engine-ahannah.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-ahannah.conf \
+    $(LOCAL_PATH)/configs/thermal-engine-hannah.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-hannah.conf \
+    $(LOCAL_PATH)/configs/thermal-engine-rhannah.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-rhannah.conf
